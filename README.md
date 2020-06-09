@@ -3,11 +3,11 @@
 You are starting your journey as a Blockchain Developer, this project allows you to demonstrate
 that you are familiarized with the fundamentals concepts of a Blockchain platform.
 Concepts like:
-    - Block
-    - Blockchain
-    - Wallet
-    - Blockchain Identity
-    - Proof of Existance
+* Block
+* Blockchain
+* Wallet
+* Blockchain Identity
+* Proof of Existance
 
 ## How to test application functionalities?
 
@@ -28,6 +28,6 @@ You should see in your terminal a message indicating that the server is listenin
 6. Retrieve Stars owned by me
     ![Request: http://localhost:8000/blocks/<WALLET_ADDRESS>](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca362b9_retrieve-stars/retrieve-stars.png)
 7. Retrieve block by hash
-    GET Request: http://localhost:8000/block-by-hash/<Block-hash>
+    GET Request: http://localhost:8000/block-by-hash/:block-hash
 7. Validate blockchain
     GET Request: http://localhost:8000/chaincheck
